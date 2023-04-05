@@ -1,0 +1,60 @@
+.App {
+  /* display: flex; */
+  text-align: center;
+  color: rgb(201, 201, 183);
+  font-size: 16px;
+  min-height: 100vh;
+  /* padding-top: 30px; */
+  padding-bottom: 30px;
+}
+
+a {
+  color: #c9c5c5;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.Posts {
+  display: flex;
+  justify-content: space-around;
+  /* color: rgb(201, 201, 183);
+  font-size: 16px;
+  min-height: 100vh;
+  padding-top: 30px;
+  padding-bottom: 30px; */
+}
+
+nav {
+  display: block;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  padding: 20px;
+}
+
+nav .active {
+  color: #fff;
+}
+
+.post-enter {
+  opacity: 0;
+}
+.post-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.post-exit {
+  opacity: 1;
+}
+.post-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}

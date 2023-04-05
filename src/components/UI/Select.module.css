@@ -1,0 +1,14 @@
+.select {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  background: #616161;
+  border: none;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.select option {
+  background: transparent;
+}

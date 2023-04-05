@@ -1,0 +1,25 @@
+.post {
+  border: 2px solid grey;
+  width: 100%;
+  margin-bottom: 10px;
+  background: #554848;
+}
+
+.post h3 {
+  border-bottom: 1px solid grey;
+}
+
+.post p {
+  text-align: start;
+}
+
+.post h3,
+.post p {
+  padding: 10px;
+}
+
+.service {
+  display: flex;
+  justify-content: end;
+  align-items: baseline;
+}
